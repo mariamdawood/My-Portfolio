@@ -1,0 +1,133 @@
+* {
+
+}
+
+:root {
+    --most-used-color: azure;
+    --headers-color: rgb(11, 70, 90);
+}
+
+body {
+    margin: 50px 200px;
+    background-image: url(https://media.istockphoto.com/id/1326304939/vector/studio-room-in-dark-blue-background-with-copy-space-luxury-gallery-empty-room-abstract.jpg?s=612x612&w=0&k=20&c=wZhCPp213vDnmc66LNJ3Kb4qKZHr_xiKCvYmfpQgyHI=);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 50px 50px;
+    box-shadow: 0 0 50px black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8jhXibX6_tFbz8lRH6p4ZDimziv-xcpflEQ&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    color: var(--headers-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    margin-right: auto;
+}
+
+.links ul {
+    list-style: none; 
+    display: flex;
+}
+
+.links a {
+    color: var(--headers-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 175%;
+    font-weight: bolder;
+    margin-right : 30px;
+}
+
+.photo-and-about-me {
+    display: flex;
+    margin-left: 50px;
+}
+
+.photo {
+    margin-right: 50px;
+}
+
+.about-me ul,
+.my-work ul {
+    color: var(--most-used-color);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+}
+
+.about-me p,
+.my-work h3 {
+    color: var(--most-used-color);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.about-me p {
+    font-size: 150%;
+    text-align: justify;
+    width: 75%;
+}
+
+.my-work h3 {
+    font-size: 300%;
+}
+
+.my-work {
+    display: flex;
+    flex-direction: column;
+}
+
+.other-projects img {
+    width: 385px;
+    height: 300px;
+    margin-top: 30px;
+    padding-right: 30px;
+}
+
+.contact-me {
+    color: var(--headers-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.contact-me ul {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8jhXibX6_tFbz8lRH6p4ZDimziv-xcpflEQ&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px 50px;
+    box-shadow: 0 0 50px black;
+}
+
+.contact-me li {
+    list-style: none;
+}
+
+.my-contacts {
+    display: flex;
+    align-items: center;
+}
+
+.my-contacts h1 {
+    margin-right: 20px;
+}
+
+.my-contacts h3 {
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.github {
+    color: var(--headers-color);
+}
+
+footer {
+    margin-top: 30px;
+}
